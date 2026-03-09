@@ -1,6 +1,10 @@
 # Dependencies
 node_modules/
 
+# Environment variables (NEVER commit real tokens!)
+.env
+.env.local
+
 # Output files
 trending_crypto.json
 
@@ -31,7 +35,3 @@ build/
 # OS
 .DS_Store
 Thumbs.db
-
-# Environment
-.env
-.env.local
